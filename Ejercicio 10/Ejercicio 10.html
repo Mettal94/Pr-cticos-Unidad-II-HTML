@@ -83,14 +83,31 @@
             </tr>
         </tbody>
     </table>
-   
+    <h3>Aquí también me pasó como la primer consigna</h3>
+    <table border>
+        <caption> <b><i>Tabla con 2 filas y 3 columnas Versión 2</i></b></caption>
+        <thead>
+            <tr>
+                <th>Columna 1/Fila 1</th>
+                <th>Columna 2</th>
+                <th>Columna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Fila 2</th>
+                <td>contenido</td>
+                <td>contenido</td>
+            </tr>
+        </tbody>
+    </table>
     <hr>
 
     <table border>
         <caption> <b><i> Una tabla con 3 filas donde la primera fila tenga solo 1 celda
                     y las otras dos filas tengan 3 celdas</i></b>
         <tr>
-            <td>Fila 1</td>
+            <td colspan="3">Fila 1</td>
         </tr>
         <tr>
             <td>Fila 2, celda 1</td>
@@ -107,17 +124,16 @@
     <hr>
 
     <table border>
-        <caption> <b><i> Una tabla con 3 columnas, donde la primera columna tiene 2 celdas
-                    la segunda columna 1 celda y la tercera tiene 3 celdas</i></b>
+        <caption> <b><i> Una tabla con 3 columnas, donde la primera columna tiene 2 celdas la segunda columna 1 celda y la tercera tiene 3 celdas</i></b>
         <tr>
-            <td rowspan="2">A</td>
+            <td>A</td>
             <td rowspan="3">C</td>
             <td>D</td>
-        </tr>    
+        </tr>
         <tr>
-            <td>B</td>
+            <td rowspan="2">B</td>
             <td>E</td>
-        </tr>    
+        </tr>
         <tr>
             <td>F</td>
         </tr>
